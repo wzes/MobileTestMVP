@@ -5,8 +5,6 @@ import android.content.SharedPreferences.Editor;
 
 public class Preferences {
     private static final String KEY_USER_ACCOUNT = "account";
-    private static final String KRY_LAT = "latitude";
-    private static final String KRY_LON = "longitude";
     public static void saveUserAccount(String account) {
         saveString(KEY_USER_ACCOUNT, account);
     }

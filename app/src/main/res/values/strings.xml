@@ -41,4 +41,8 @@
     <string name="comingsoon">即将上映</string>
     <string name="top250">Top250</string>
     <string name="usbox">欧美票房榜</string>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+
 </resources>

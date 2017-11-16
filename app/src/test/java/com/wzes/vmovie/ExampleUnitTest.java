@@ -1,5 +1,8 @@
 package com.wzes.vmovie;
 
+import com.wzes.vmovie.bean.SearchResults;
+import com.wzes.vmovie.service.BingWebSearch;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -13,5 +16,8 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
+
+        SearchResults red = BingWebSearch.SearchWeb("Hadoop");
+        System.out.println(red.jsonResponse);
     }
 }
